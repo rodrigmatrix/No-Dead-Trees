@@ -1,0 +1,42 @@
+﻿<Publish>
+  <!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+  <ModId Value="" />
+  <!--Name of the mod to display to players-->
+  <DisplayName Value="No Dead Trees" />
+  <!--Short description of the mod-->
+  <ShortDescription Value="Automatically replace all dead trees in your map" />
+  <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+  <!--LongDescription Value="This is a long description" /-->
+  <LongDescription>
+# No Dead Trees
+- Automatically replace all dead trees in your map with a predefined tree state set on settings.
+
+- The script runs every 30 seconds for performance reasons and it can take a while to update all trees.
+
+- You can change the tree state you want your dead trees to update in the mod settings.
+
+- Sometimes, trees show up as dead but when you hover them, they update to the new tree state. A fix for it is to zoom very far away and go to the edge of the map and come back to the same place. Your trees will be updated.
+  </LongDescription>
+  <!--Thumbnail-->
+  <Thumbnail Value="ParadoxRes/Thumbnail.png" />
+  <!--Screenshot, can be set multiple times-->
+  <Screenshot Value="ParadoxRes/Screenshot1.png" />
+  <Screenshot Value="ParadoxRes/Screenshot2.png" />
+  <Screenshot Value="ParadoxRes/Screenshot3.png" />
+  <Screenshot Value="ParadoxRes/Screenshot4.png" />
+  <!--Tag, can be set multiple times-->
+  <Tag Value="Code Mod" />
+  <!--Link to the forum post where the mod can be discussed-->
+  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/no-dead-trees.1700855/" />
+  <!--Version of the mod-->
+  <ModVersion Value="1.0" />
+  <!--Recommended version of the base game to use the mod-->
+  <GameVersion Value="1.1.*" />
+  <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+  <ChangeLog>
+  </ChangeLog>
+  <!--ChangeLog>
+	</ChangeLog-->
+  <!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+  <ExternalLink Type="github" Url="https://github.com/rodrigmatrix/No-Dead-Trees" />
+</Publish>
