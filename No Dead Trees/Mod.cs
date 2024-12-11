@@ -26,7 +26,7 @@ namespace NoDeadTrees
 
 
             AssetDatabase.global.LoadSettings(nameof(NoDeadTrees), m_Setting, new NoDeadTreesSetting(this));
-            updateSystem.UpdateAt<NoDeadTreesSystem>(SystemUpdatePhase.PrefabUpdate);
+            updateSystem.UpdateAt<NoDeadTreesSystem>(SystemUpdatePhase.GameSimulation);
         }
 
         public void OnDispose()
